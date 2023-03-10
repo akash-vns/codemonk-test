@@ -11,7 +11,7 @@ from .filters import ArticleFilter
 
 
 class UserArticleViewSet(ModelViewSet):
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     serializer_class = ArticleSerializer
     queryset = UserArticle.objects.all()[:10]
     filter_backends = (filters.DjangoFilterBackend,)
