@@ -28,6 +28,6 @@ class ArticleSerializer(serializers.ModelSerializer, AuthUserSerializerMinix):
         contents = validated_data.pop("contents", [])
         instance = None
         for content in contents:
-            passing_data = {"content": content, "user": user}
+            passing_data = {"content": content.lower(), "user": user}
             instance = super().create(passing_data)
         return instance

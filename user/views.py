@@ -13,6 +13,6 @@ from .filters import ArticleFilter
 class UserArticleViewSet(ModelViewSet):
     # permission_classes = [IsAuthenticated]
     serializer_class = ArticleSerializer
-    queryset = UserArticle.objects.all()
+    queryset = UserArticle.objects.all()[:10]
     filter_backends = (filters.DjangoFilterBackend,)
     filterset_class = ArticleFilter
