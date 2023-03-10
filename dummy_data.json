@@ -1,0 +1,62 @@
+[
+{
+    "model": "user.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$aMdsr2MT3zWhXiZJ2iQIr1$bQ3JcDMYefH8S98amMeQ96N9Oo53VsbRBXPlosLyFpU=",
+        "last_login": "2023-03-10T09:30:33.763Z",
+        "is_superuser": true,
+        "username": "ak",
+        "first_name": "",
+        "last_name": "",
+        "email": "ak@g.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-03-10T08:02:49.188Z",
+        "dob": null,
+        "updated": "2023-03-10T08:02:49.238Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.userarticle",
+    "pk": 1,
+    "fields": {
+        "content": "The articleship or the practical training is the backbone of Chartered Accountancy (CA) and such other professional courses as it gives an opportunity to the articled assistants to acquire on-the-job work experience of a professional nature, inculcate a disciplined attitude for hard work, develops necessary skills in applying theoretical knowledge to practical situation.",
+        "user": 1
+    }
+},
+{
+    "model": "user.userarticle",
+    "pk": 2,
+    "fields": {
+        "content": "In this regard, the Institute of Chartered Accountants of India (ICAI) has been taking various initiatives from time to time to streamline and sustain the efforts in providing effective articleship. Currently, the total period of articleship is three years after clearing Group 1 of CA Intermediate Course.",
+        "user": 1
+    }
+},
+{
+    "model": "user.userarticle",
+    "pk": 3,
+    "fields": {
+        "content": "Articleship can best be explained with a quote that says swimming cannot be learned by reading about it. However, students find an easy route to by-pass this period of three years by registering for the articleship training under a known/relative practicing CA and choose not to actually undergo training. This is commonly known as Dummy Articleship; where one gets registered with a practicing CA for a mandatory period of three years but do not attend the office, i.e., all the things are merely on paper and no actual training is being imparted by the Principal to the Articled Trainee. The said practice is not legally acceptable as per the guidelines laid down by the institute.",
+        "user": 1
+    }
+},
+{
+    "model": "user.userarticle",
+    "pk": 4,
+    "fields": {
+        "content": "that the remuneration in the form of stipend given to articled assistants is very low as compared to a person performing the same work employed full-time. Hectic workload and long working hours in order to meet deadlines increases pressure on the firms manifold. This pressure comes down to the working level persons which are none but articled assistants. Also, initially the articled assistants are in their learning phase but gradually in the second and third year, many a times they are forced to do the same tasks repeatedly creating an impression that they are highly underpaid for the work they are alloted. However, ICAI has acknowledged this fact and set minimum stipend for various cities and has also revised the same from time to time as and when deemed necessary.",
+        "user": 1
+    }
+},
+{
+    "model": "user.userarticle",
+    "pk": 5,
+    "fields": {
+        "content": "1. No practical exposure: One of the biggest losses for a student opting for dummy articleship is no practical implementation of what he/she has learnt theoretically. Albert Einstein highlights the importance of practice by quoting “In theory, theory and practice are the same. In practice they are not”. Without having a practical exposure, one cannot apply theoretical concepts in reality when it is required. Also one can have much more clarity in understanding any concept once it is practically implemented. It is a proven fact that it stays in the mind for a longer duration once it is in practice.",
+        "user": 1
+    }
+}
+]
